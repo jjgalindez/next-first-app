@@ -1,0 +1,11 @@
+/* Asegúrate de que la ruta sea correcta */
+
+/* Redefine tus clases del módulo utilizando las clases globales importadas */
+.link {
+  /* Combina tus estilos locales (si los hay) con la clase global */
+  composes: link-styles from global;
+}
+
+.active-link {
+  composes: active-link-styles from global;
+}
