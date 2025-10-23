@@ -13,7 +13,7 @@ interface Props {
 export const ActiveLink = ({path, text}: Props) => {
 
   const patName = usePathname();
-  
+   
   return (
     <Link  
     className={`${style.link} ${(patName === path) && style['active-link']}`}
